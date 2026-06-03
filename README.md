@@ -70,11 +70,13 @@ No arguments. No configuration. Works on any git repo — Node, Python, Go, Rust
 
 ## File structure
 pr-description-writer/
-├── SKILL.md                          ← Claude's instructions
-├── README.md                         ← This file
+├── SKILL.md
+├── README.md
+├── LICENSE
+├── pr-description-writer.skill
 └── references/
-├── conventional-commits.md       ← Type detection reference
-└── examples.md                   ← 3 worked PR examples
+    ├── conventional-commits.md  
+    └── examples.md              
 ---
 
 ## Why this exists
